@@ -1,0 +1,7 @@
+package com.project.oms.repository;
+
+import com.project.oms.model.OrderItem;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface OrderItemRepository extends JpaRepository<OrderItem, Long> {
+}
